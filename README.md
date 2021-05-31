@@ -2,6 +2,16 @@
   Modeling of Visco-Elastic Environments for Humanoid Robot Motion Control
 </h1>
 
+
+<div align="center">
+
+```
+G. Romualdi, S. Dafarra and D. Pucci, "Modeling of Visco-Elastic Environments for Humanoid Robot Motion Control,"
+IEEE Robotics and Automation Letters, vol. 6, no. 3, pp. 4289-4296, July 2021, doi: 10.1109/LRA.2021.3067589
+```
+
+</div>
+
 <p align="center"><img src="https://github.com/dic-iit/Romualdi-2021-RAL-soft_terrain_walking/blob/main/assets/picture.png" alt=""/></p>
 
 <div align="center">
