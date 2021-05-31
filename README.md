@@ -5,10 +5,9 @@
 
 <div align="center">
 
-```
-G. Romualdi, S. Dafarra and D. Pucci, "Modeling of Visco-Elastic Environments for Humanoid Robot Motion Control,"
-IEEE Robotics and Automation Letters, vol. 6, no. 3, pp. 4289-4296, July 2021, doi: 10.1109/LRA.2021.3067589
-```
+
+_G. Romualdi, S. Dafarra and D. Pucci, "Modeling of Visco-Elastic Environments for Humanoid Robot Motion Control," in
+IEEE Robotics and Automation Letters, vol. 6, no. 3, pp. 4289-4296, July 2021, doi: 10.1109/LRA.2021.3067589_
 
 </div>
 
