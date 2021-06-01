@@ -11,7 +11,11 @@ IEEE Robotics and Automation Letters, vol. 6, no. 3, pp. 4289-4296, July 2021, d
 
 </div>
 
-<p align="center"><img src="https://github.com/dic-iit/Romualdi-2021-RAL-soft_terrain_walking/blob/main/assets/picture.png" alt=""/></p>
+<p align="center">
+
+https://user-images.githubusercontent.com/16744101/120328989-b1249580-c2eb-11eb-9649-ebe13ad7342c.mp4
+
+</p>
 
 <div align="center">
   IEEE Robotics and Automation Letters
@@ -19,7 +23,8 @@ IEEE Robotics and Automation Letters, vol. 6, no. 3, pp. 4289-4296, July 2021, d
 
 <div align="center">
   <a href="#installation"><b>Installation</b></a> |
-  <a href="https://ieeexplore.ieee.org/document/9382068"><b>Paper</b></a>
+  <a href="https://ieeexplore.ieee.org/document/9382068"><b>Paper</b></a> |
+  <a href="https://www.youtube.com/watch?v=7XKQ5ZWJvYU"><b>Video</b></a>
 </div>
 
 ### Installation
