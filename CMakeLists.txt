@@ -4,7 +4,7 @@
 cmake_minimum_required(VERSION 3.14)
 
 ## MAIN project
-project(SoftTerrainWaliking
+project(SoftTerrainWalking
   VERSION 0.0.1)
 
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
@@ -65,11 +65,24 @@ add_install_rpath_support(BIN_DIRS "${CMAKE_INSTALL_PREFIX}/${CMAKE_INSTALL_BIND
 
 
 find_package(Eigen3 3.2.92 REQUIRED)
+find_package(BipedalLocomotionFramework REQUIRED)
+find_package(WalkingControllers REQUIRED)
+find_package(OsqpEigen REQUIRED)
+find_package(Threads REQUIRED)
+find_package(ICUB REQUIRED)
+find_package(UnicyclePlanner REQUIRED)
+find_package(qpOASES REQUIRED)
+find_package(iDynTree REQUIRED)
+
+
 
 #Function to automatize the process of creating a new application
 include(AddSoftTerrainWalkingApplication)
+include(AddSoftTerrainWalkingLibrary)
+include(InstallIniFiles)
 
 add_subdirectory(src)
+add_subdirectory(model)
 
 # include(InstallBasicPackageFiles)
 # set(PROJECT_PRIVATE_DEPENDENCIES )
