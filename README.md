@@ -22,14 +22,33 @@ https://user-images.githubusercontent.com/16744101/120328989-b1249580-c2eb-11eb-
 </div>
 
 <div align="center">
-  <a href="#installation"><b>Installation</b></a> |
+  <a href="#reproducing-the-experiments"><b>Installation</b></a> |
   <a href="https://ieeexplore.ieee.org/document/9382068"><b>Paper</b></a> |
   <a href="https://www.youtube.com/watch?v=7XKQ5ZWJvYU"><b>Video</b></a>
 </div>
 
-### Installation
+### Reproducing the experiments
+We support running the experiments via the provided Docker image.
 
-_Our software implementation is in the process of being released._
+1. Pull the docker image:
+    ```console
+    docker pull ghcr.io/ami-iit/soft-terrain-walking-docker:latest
+    ```
+2. Launch the container:
+    ```console
+    xhost +
+    docker run -it --rm  \
+               --device=/dev/dri:/dev/dri \
+               --user user \
+               --env="DISPLAY=$DISPLAY"  \
+               --net=host \
+               ghcr.io/ami-iit/soft-terrain-walking-docker:latest
+    ```
+3. The application will start automatically
+
+You can find the generated `dataset` and `images` in the `~\experiment` folder of the container.
+
+⚠️  If you want to replicate the installation on your PC please follow the [Docker recipe](./dockerfiles/Dockerfile).
 
 ### Citing this work
 
